@@ -1,0 +1,59 @@
+body{
+    background-color: darkgray;
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    width: 400px;
+    height: 400px;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    display: grid;
+}
+
+.light {
+    background-color: #f0d9b5;
+}
+  
+.dark {
+    background-color: #b58863;
+}
+
+.game {
+    display: grid;
+    justify-content: center;
+}
+.fichas{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.peon {
+    width: 40px;
+    height: 40px;
+}
+.torre{
+    width: 40px;
+    height: 40px;
+}
+.caballo{
+    width: 40px;
+    height: 40px;
+}
+.rey{
+    width: 40px;
+    height: 40px;   
+}
+.reina{
+    width: 40px;
+    height: 40px;
+}
+.alfil{
+    width: 40px;
+    height: 40px;
+}   
+
